@@ -1,0 +1,131 @@
+html, 
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'Cousine', monospace;
+}
+    
+/*------------------------------------------ INIZIO NAVBAR---------------------- */
+
+.navbar{ 
+    background-color: black !important;
+    top: 0;
+    z-index: 10;
+    border-bottom: 2px solid orangered;
+}
+
+.logo{
+    color: #FDD017 !important;
+    text-transform: uppercase;
+    font-weight: 700; 
+}
+
+
+#navbarNav ul li a{
+    color: white;
+}
+
+#navbarNav ul li a:hover{
+    background-color: #FDD017;
+    color: black;
+    transform: translateY(-3px);
+}
+
+.fa-bars{
+    color: white;
+}
+
+/*------------------------------------------ FINE NAVBAR---------------------- */
+
+/* ----------------------------INIZIO BANNER--------------------------------------- */
+
+#banner{
+    background-color: black;
+    color: white;
+    padding-top: 5%;
+}
+.citazione{
+    border-left: 3px solid orangered;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+#cta{
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    background-color:orangered	 ;
+    color: white;
+    border-radius: 10%;
+}
+#bulb{
+    margin-top: 15px;
+}
+
+/* ---------------------------- FINE BANNER --------------------------------------- */
+
+/* ---------------------------- INIZIO SERVIZI --------------------------------------- */
+
+#servizi{
+padding: 80px 0;
+background-color: 	#FDD017	;
+}
+
+#servizi h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.servizio-img{
+    width: 220px;
+    margin-top: 20px;
+}
+
+.title::before{
+    content: '';
+    background: orangered;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after{
+    content: '';
+    background:orangered;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+/* ---------------------------- FINE SERVIZI --------------------------------------- */
+
+/* ---------------------------- SESSIONE ABOUT --------------------------------------- */
+
+#about{
+    background-color: 	#FDD017	;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+/* ---------------------------- FINE SEZIONE ABOUT --------------------------------------- */
+
+/* ---------------------------- INIZIO SEZIONE FOOTER --------------------------------------- */
+#contatti{
+    background: black;
+    color: white !important;
+}
+/* ---------------------------- FINE SEZIONE FOOTER --------------------------------------- */
+
+
